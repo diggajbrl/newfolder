@@ -1,0 +1,54 @@
+@import "common";
+
+header {
+    padding: 12px 0px;
+    border-bottom: 0.5px solid #dcdcdc;
+    background-color: white;
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        nav {
+            display: flex;
+            align-items: center;
+            gap: 35px;
+            color: #666687;
+
+            a {
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+
+            button {
+                border: none;
+                outline: none;
+                border-radius: 999px;
+                padding: 8px 20px;
+                background-color: $PrimeColor;
+                color: #fff;
+            }
+        }
+    }
+}
+
+.notice {
+    padding: 12px 0px;
+    background-color: $PrimeColor;
+
+    .container {
+        text-align: center;
+
+        p {
+            color: aliceblue;
+
+            a {
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}

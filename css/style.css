@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box !important;
+  font-family: "Inter", sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+p {
+  margin-bottom: 0;
+  color: #666687;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0px;
+  color: #222c44;
+}
+
+figure {
+  margin: 0px !important;
+}
+
+dl,
+ol,
+ul {
+  margin-top: 0;
+  margin-bottom: 0 !important;
+  padding-left: 0;
+}
+dl li,
+ol li,
+ul li {
+  list-style: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  padding: 12px 0px;
+  border-bottom: 0.5px solid #dcdcdc;
+  background-color: white;
+}
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .container nav {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  color: #666687;
+}
+header .container nav a:hover {
+  text-decoration: underline;
+}
+header .container nav button {
+  border: none;
+  outline: none;
+  border-radius: 999px;
+  padding: 8px 20px;
+  background-color: #6556FF;
+  color: #fff;
+}
+
+.notice {
+  padding: 12px 0px;
+  background-color: #6556FF;
+}
+.notice .container {
+  text-align: center;
+}
+.notice .container p {
+  color: aliceblue;
+}
+.notice .container p a:hover {
+  text-decoration: underline;
+}/*# sourceMappingURL=style.css.map */
