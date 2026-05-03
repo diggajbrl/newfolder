@@ -9,6 +9,15 @@
     --bs-gutter-y: 0;
 }
 
+button,
+input {
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
 .container {
     width: 100%;
     padding-right: calc(var(--bs-gutter-x) * 0.5);
