@@ -1,7 +1,16 @@
-*,
-::after,
-::before {
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
     box-sizing: border-box;
+    font-optical-sizing: auto;
+    font-family: "Google Sans", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 :root {
